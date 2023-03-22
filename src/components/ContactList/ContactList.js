@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import {Contacts, ButtonDelete } from './ContactList.styled';
 
 export default function ContactList({ contacts, deleteContact }) {
-  // console.log(contacts);
-
   return (
     <ul>
       {contacts.map(contact => (
