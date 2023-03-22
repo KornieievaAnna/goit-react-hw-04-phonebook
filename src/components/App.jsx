@@ -27,7 +27,7 @@ export function App() {
       isFirstRender.current = false;
       return;
     }
-  });
+  }, []);
 
   useEffect(() => {
     localStorage.setItem('Contact', JSON.stringify(contacts));
